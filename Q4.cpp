@@ -1,4 +1,3 @@
-
 #include <iostream>
 
 using namespace std;
@@ -7,24 +6,20 @@ int main()
 {
     int T;
     cin>>T;
-     int arr[T];
-     for(int i=0;i<T;i++)
-     {
-         cin>>arr[i];
-     }
-     for(int i=0;i<T;i++)
-     {
-         int x=arr[i];
-         while(x!=0)
-         {
-             int d=x%10;
-             if(d!=0)
-             cout<<d;
-             x=x/10;
-         }
-         cout<<endl;
-     }
     
-    
+    while(T--)
+    {
+        int n1=0;
+        int N;
+        cin>>N;
+        while(N!=0)
+        {
+            int d=N%10;
+            n1=n1*10+d;
+            N=N/10;
+        }
+        cout<<n1<<endl;
+    }
     return 0;
 }
+
