@@ -8,6 +8,9 @@ Q1:Number of Apartments
 ### #Day5:Integrated api to smart brains.
 ### #Day6:Question2(Solution: Santa's Node Helper problem using file handeling in js).
 ### #Day7:Worked on smart brain backend api.
+Lets start with DSA
+### #Day8:Ques:Smart phone.
+
 
 
 
