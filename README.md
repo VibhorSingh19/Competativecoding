@@ -7,6 +7,7 @@ Q1:Number of Apartments
 ### #Day4:Start Smart brains wb app.
 ### #Day5:Integrated api to smart brains.
 ### #Day6:Question2(Solution: Santa's Node Helper problem using file handeling in js).
+### #Day7:Worked on smart brain backend api.
 
 
 
