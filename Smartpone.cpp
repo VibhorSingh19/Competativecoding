@@ -1,20 +1,19 @@
-
 #include <iostream>
 #include <bits/stdc++.h> 
 using namespace std;
 
 int main()
 {
-    int N;
+    long N;
     cin>>N;
-    int arr[N];
+    long arr[N];
     for(int i=0;i<N;i++)
     {
      cin>>arr[i];   
     }
-    int n = sizeof(arr)/sizeof(arr[0]); 
+    long n = sizeof(arr)/sizeof(arr[0]); 
     sort(arr, arr+n);
-    int x,y=1,max=0;
+    long x,y=1,max=0;
     for(int i=0;i<N;i++)
     {
         x=N-i;
