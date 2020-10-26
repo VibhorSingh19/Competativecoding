@@ -10,6 +10,7 @@ Q1:Number of Apartments
 ### #Day7:Worked on smart brain backend api.
 # Lets start with DSA
 ### #Day8:Ques:Smart phone.
+## #Day8:Sunday fun day.
 
 
 
