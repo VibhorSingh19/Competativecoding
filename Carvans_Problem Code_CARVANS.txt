@@ -1,0 +1,28 @@
+#include <iostream>
+#include <bits/stdc++.h> 
+using namespace std;
+
+int main()
+{
+    long T;
+    cin>>T;
+    while(T--)
+    {
+    long N;
+    cin>>N;
+    long arr[N];
+    for(int i=0;i<N;i++)
+    {
+     cin>>arr[i];   
+    }
+    long c=0;
+    for(int i=1;i<N;i++)
+    {
+        if(arr[i-1]>arr[i])
+        c++;
+    }
+    c++;
+    cout<<c<<endl;
+    }  
+    return 0;
+}
