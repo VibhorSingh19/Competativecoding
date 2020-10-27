@@ -10,6 +10,9 @@ Q1:Number of Apartments
 ### #Day7:Worked on smart brain backend api.
 # Lets start with DSA
 ### #Day8:Ques:Smart phone.
+### #Day9:Sunday fun day.
+### #Day10:Solved Carvans Problem Code: CARVANS.
+
 
 
 
