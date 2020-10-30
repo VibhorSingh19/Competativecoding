@@ -18,7 +18,7 @@ int main()
     {
         x=N-i;
         y=arr[i]*x;
-        
+        if(y>max)
         max=y;
     }
     cout<<max;
