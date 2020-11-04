@@ -11,7 +11,7 @@ Q1:Number of Apartments
 # Lets start with DSA
 ### #Day8:Ques:Smart phone.
 ### #Day9:Sunday fun day.
-### #Day10:Solved Carvans Problem Code: .
+### #Day10:Solved Carvans Problem Code: CARVANS.
 
 
 
