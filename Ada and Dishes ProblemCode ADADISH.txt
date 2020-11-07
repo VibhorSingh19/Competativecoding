@@ -7,6 +7,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -27,7 +28,20 @@ int main()
        {
            s+=arr[i];
        }
-       cout<<round(s/2);
+       int s1=0,s2=0,x=0;
+       s1+=arr[x++];
+       while(s1+s2==s)
+       {
+        if(s2>s1)
+        s1+=arr[x++];
+        if(s1>s2)
+        s2+=arr[x++];
+       }
+       if(s2>s1)
+       cout<<s2;
+       else
+       cout<<s1;
+       
        
    }
 
