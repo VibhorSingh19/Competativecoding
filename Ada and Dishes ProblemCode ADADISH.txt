@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   cin>>T;
+   while(T--)
+   {
+       
+   }
+
+    return 0;
+}
