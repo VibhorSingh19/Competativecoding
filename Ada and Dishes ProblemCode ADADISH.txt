@@ -1,67 +1,51 @@
+
 #include <iostream>
-#include <cmath>
 #include <bits/stdc++.h>
-#include<list>
 using namespace std;
 
-int
-main ()
+int main()
 {
-  int T;
+    int T;
   cin >> T;
   while (T--)
     {
-      int N, s = 0;
+      int N;
       cin >> N;
       int arr[N];
       for (int i = 0; i < N; i++)
 	{
 	  cin >> arr[i];
 	}
-      sort (arr, arr + N, greater < int >());
-      list < int >li = {};
-      int x=0,y=0;
-      while(x<=N)
-      {
-         int arr1[2]={};
-         int a=0;
-      if(li.empty()==1)
-      {
-          li.push_back(arr[x++]);
-          li.push_back(arr[x++]);
-          
-      }
-      if(li.empty()==1&&x==N-1)
-      {
-          li.push_back(arr[x++]);
-      }
-      for (auto const& i: li) {
-		arr1[a++]=i;
-     	}
-     	li.clear();
-       sort (arr1, arr1 + a, greater < int >());
-     	if(a==2)
-     	{
-     	    if((arr1[0]-arr1[1])!=0)
-     	    {
-         li.push_back(arr1[0]-arr1[1]);
-         y+=arr1[1];
-     	    }
-     	    else
-     	    {
-     	        y+=arr1[1];
-     	    }
-     	}
-     	else if(a==1)
-     	{
-     	    li.push_back(arr1[0]);
-     	    y+=arr1[0];
-     	    break;
-     	}
-      }
-      
-	cout<<y;
+	int arr1[2]={0,0};
+	sort (arr, arr + N, greater < int >());
+	int x=0,s=0;
+	while(x<N)
+	{
+	    if(arr1[0]==0)
+	    arr1[0]=arr[x++];
+	    if(arr1[1]==0)
+	    arr1[1]=arr[x++];
+	    if(arr1[1]>arr1[0])
+	    {
+	        s+=arr1[0];
+	        arr1[1]=arr1[1]-arr1[0];
+	        arr1[0]=arr1[0]-arr1[0];
+	        
+	    }
+	    else
+	    {
+	        s+=arr1[1];
+	        arr1[0]=arr1[0]-arr1[1];
+	        arr1[1]=arr1[1]-arr1[1];
+	    }
+	    
+	    
+	}
+	s+=arr1[0];
+	s+=arr1[1];
+	cout<<s;
+	
     }
-
-  return 0;
+    return 0;
 }
+
