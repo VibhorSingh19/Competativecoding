@@ -14,6 +14,8 @@ Q1:Number of Apartments
 ### #Day10:Solved Carvans Problem Code:CARVANS.
 ### #Day11:Solved Ada and Dishes
 ### #Day11:Updated F & T Nature landing page.
+### #Day12:Updated F & T Nature landing page.
+### #Day13:Updated F & T Nature landing page.
 
 
 
