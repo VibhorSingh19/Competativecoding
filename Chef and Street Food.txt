@@ -11,40 +11,19 @@ int main()
     {
       int N;
       cin >> N;
-      int arr[N];
+      int S[N],P[N],V[N];
       for (int i = 0; i < N; i++)
 	{
-	  cin >> arr[i];
+	  cin >> S[i];
 	}
-	int arr1[2]={0,0};
-	sort (arr, arr + N, greater < int >());
-	int x=0,s=0;
-	while(x<N)
+      for (int i = 0; i < N; i++)
 	{
-	    if(arr1[0]==0)
-	    arr1[0]=arr[x++];
-	    if(arr1[1]==0)
-	    arr1[1]=arr[x++];
-	    if(arr1[1]>arr1[0])
-	    {
-	        s+=arr1[0];
-	        arr1[1]=arr1[1]-arr1[0];
-	        arr1[0]=arr1[0]-arr1[0];
-	        
-	    }
-	    else
-	    {
-	        s+=arr1[1];
-	        arr1[0]=arr1[0]-arr1[1];
-	        arr1[1]=arr1[1]-arr1[1];
-	    }
-	    
-	    
+	  cin >> P[i];
 	}
-	s+=arr1[0];
-	s+=arr1[1];
-	cout<<s;
-	
+     for (int i = 0; i < N; i++)
+	{
+	  cin >> V[i];
+	}
     }
     return 0;
 }
