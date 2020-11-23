@@ -16,8 +16,6 @@ Q1:Number of Apartments
 ### #Day13:Updated F & T Nature landing page.
 ### #Day14:Updated F & T Nature landing page.
 ### #Day15:Updated F & T Nature landing page.
-### #Day16:Updated F & T Nature landing page.
-
 
 
 
