@@ -22,6 +22,3 @@ Q1:Number of Apartments
 
 
 
-
-
-

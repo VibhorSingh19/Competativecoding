@@ -31,7 +31,6 @@ int main()
         {
             str1=str.substr(0,l/2);
          sort(str1.begin(), str1.end()); 
-         
          str2=str.substr(l/2+1,l);
          sort(str2.begin(), str2.end());
          if(str1.compare(str2)==0)
@@ -40,6 +39,7 @@ int main()
          }
          else
          cout<<"NO"<<endl;
+         
         }
         
     }
