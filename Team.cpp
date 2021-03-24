@@ -6,29 +6,24 @@ using namespace std;
 int main()
 {
     int N;
-    cout<<"Enter the size...";
     cin>>N;
-    int arr[N];
-    cout<<"Enter the array elements...";
-    for(int i=0;i<N;i++)
+    int arr[3];
+    int c=0,c1=0;
+    for(int j=0;j<N;j++)
+    {
+    for(int i=0;i<3;i++)
     {
         cin>>arr[i];
     }
-    sort(arr, arr + N);
-    int arr1[arr[N-1]];
-    for(int i=0;i<arr[N-1];i++)
+    for(int i=0;i<3;i++)
     {
-        arr1[i]=i;
+        if(arr[i]==1)
+        c++;
     }
-    for(int i=0;i<N;i++)
-    {
-        if(arr[i]!=arr1[i])
-        {
-            cout<<arr1[i];
-            break;
-        }
+    if(c>=2)
+    c1++;
+    c=0;
     }
-    
-    
+    cout<<c1<<endl;
     return 0;
 }
